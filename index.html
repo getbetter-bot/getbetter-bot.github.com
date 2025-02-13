@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+   }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+<link id="cool" rel="icon" type="image/x-icon" href="https://turtlesyeah.github.io/turtextular/assets/logo.png">
+</head>
+<body>
+
+
+
+<script>
+
+window.addEventListener("error", handleError, true);
+
+function handleError(evt) {
+    if (evt.message) { // Chrome sometimes provides this
+      alert("error: "+evt.message +" at linenumber: "+evt.lineno+" of file: "+evt.filename);
+    } else {
+      alert("error: "+evt.type+" from element: "+(evt.srcElement || evt.target));
+    }
+}
+</script>
+<script src="game.js"></script>
+<script>
+  
+</script>
+</body>
+</html>
 
